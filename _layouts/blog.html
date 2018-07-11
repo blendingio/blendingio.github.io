@@ -1,0 +1,24 @@
+--- 
+layout: default 
+title: Blending.io 
+---
+
+<div class="container">
+    <div class="row center">
+        {% for post in site.posts %}
+        
+            <div class="col s12 m4">
+                <div class="card blue-grey darken-1 hoverable">
+                    <div class="card-content white-text">
+                        <span class="card-title">{{ post.title }}</span>
+                        <p>{{ post.excerpt }}</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="{{ BASE_PATH }}{{ post.url }}">View post</a>
+                    </div>
+                </div>
+            </div>
+        
+        {% endfor %}
+    </div>
+</div>
