@@ -11,57 +11,71 @@ I strongly recommend watching the entire [webcast](https://www.sans.org/webcasts
 Unfortunately there doesn't seem to be a good way to export just the configuration changes from Firefox for sharing. I haven't found any at least.  
 Here is a short list on some changes I recommend doing in about:config.
 
-#### Disable Normandy (feedback to Mozilla)
+##### Disable Normandy (feedback to Mozilla)
+```
 app.normandy.enabled = false 
-
-#### Disable SafeBrowsing
+```
+##### Disable SafeBrowsing
+```
 browser.safebrowsing.blockedURIs.enabled = false
 browser.safebrowsing.downloads.enabled = false
 browser.safebrowsing.downloads.remote.enabled = false
 browser.safebrowsing.malware = false
 browser.safebrowsing.phishing = false
-
-#### Disable automatic browse suggestions
+```
+##### Disable automatic browse suggestions
+```
 browser.urlbar.filter.autocomplete = false
-
-#### Disable Activity Stream
+```
+##### Disable Activity Stream
+```
 browser.library.activity-stream.enabled = false
 browser.newtabpage.activity-stream.feeds.telemetry = false
 browser.newtabpage.activity-stream.telemetry = false
-
-#### Disable XSS protection
+```
+##### Disable XSS protection
+```
 browser.urlbar.filter.javascript = false
-
-#### Disable health report
+```
+##### Disable health report
+```
 datareporting.healthreport.uploadEnabled = false
-
-#### Disable captive portal
+```
+##### Disable captive portal
+```
 network.captive-portal-service = false
-
-#### Disable flash block
+```
+##### Disable flash block
+```
 plugins.flashBlock.enabled = false
-
-#### Disable tracking protection
+```
+##### Disable tracking protection
+```
 privacy.trackingprotection.annotate_channels = false
 privacy.trackingprotection.enabled = false
 privacy.trackingprotection.pbmode.enabled = false
-
-#### Allow mixed context
+```
+##### Allow mixed context
+```
 security.mixed_content.block_active_content = false
-
-#### Disable OSCP stapling
+```
+##### Disable OSCP stapling
+```
 security.ssl.enable_oscp_stapling = false
-
-#### Disable ssl error reporting
+```
+##### Disable ssl error reporting
+```
 security.ssl.errorReporting.enabled = false
-
-#### Allow weak ciphers
+```
+##### Allow weak ciphers
+```
 security.tls.version.min = 0
-
-#### Disable telemetry
+```
+##### Disable telemetry
+```
 toolkit.telemetry.archive.enabled = false
 toolkit.telemetry.enabled = false
-
+```
 
 
 
