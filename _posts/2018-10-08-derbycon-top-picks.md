@@ -8,11 +8,15 @@ A while ago the videos from Derbycon 2018 got released. I haven't been to Derbyc
 
 * __When Macs Come Under ATT&CK:__
 A great talk about attacks on Macs and how to detect them.
+<div class="video-container">
 <iframe src="https://www.youtube.com/embed/iweEI60PWeY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 * __Web App 101: Getting the lay of the land:__
 A session on web app testing methodology. Not very technical but great on strategy and thinking.
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/InBCxzX3Od8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+</div>
 
 * __Gryffindor | Pure JavaScript, Covert Exploitation:__ 
 A great practical take on exploitation and current trends. The introduction of Gryffindor is just at the end of the session but it is definitely a "must try".
