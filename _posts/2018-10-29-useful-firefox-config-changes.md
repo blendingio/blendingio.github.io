@@ -59,9 +59,9 @@ privacy.trackingprotection.pbmode.enabled = false
 ```
 security.mixed_content.block_active_content = false
 ```
-##### Disable OSCP stapling
+##### Disable OCSP stapling
 ```
-security.ssl.enable_oscp_stapling = false
+security.ssl.enable_ocsp_stapling = false
 ```
 ##### Disable ssl error reporting
 ```
