@@ -71,10 +71,11 @@ security.ssl.errorReporting.enabled = false
 ```
 security.tls.version.min = 0
 ```
-##### Disable telemetry
+##### Disable even more telemetry
 ```
 toolkit.telemetry.archive.enabled = false
 toolkit.telemetry.enabled = false
+browser.ping-centre.telemetry = false
 ```
 
 
